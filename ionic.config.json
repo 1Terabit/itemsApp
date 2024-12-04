@@ -1,0 +1,7 @@
+{
+  "name": "itemsApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
