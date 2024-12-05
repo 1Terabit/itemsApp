@@ -35,8 +35,6 @@ export class ItemsService {
   }
 
   updateItem(id: number, item: any): Observable<any> {
-    console.log('ID:', id); // para debug
-    console.log('Item:', item); // para debug
     return this.http.put<Item>(`${this.apiUrl}/${id}`, item);
   }
 
